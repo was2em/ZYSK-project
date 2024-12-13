@@ -1,0 +1,65 @@
+.header {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  
+  .feature-announcement {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 1rem;
+  }
+  
+  .new-feature {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  }
+  
+  .team-dashboard {
+    color: #7c3aed;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #7c3aed;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin: 1rem 0 2rem;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .demo-button, .signup-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .demo-button {
+    background-color: transparent;
+    border: 2px solid #7c3aed;
+    color: #7c3aed;
+  }
+  
+  .signup-button {
+    background-color: #7c3aed;
+    color: white;
+  }
+  

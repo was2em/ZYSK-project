@@ -1,0 +1,21 @@
+.footer {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .logos img {
+    height: 40px;
+    opacity: 0.8;
+  }
+  
+  .logos img:hover {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,61 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: fit-content;
+    gap: 2rem;
+    /* border: 2px solid black; */
+  }
+  img{
+    width: 1200px;
+  }
+
+  @media screen and (max-width: 580px) {
+   img{
+    width: 500px;
+   }
+  }
+  @media screen and (max-width: 400px) {
+    img{
+     width: 400px;
+    }
+   }
+  
+  .stats, .chat {
+    flex: 1;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .stats-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stats-controls button {
+    padding: 0.5rem 1rem;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stats-controls button:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .chart {
+    height: 200px;
+    background: #e5e7eb; /* Placeholder */
+    border-radius: 8px;
+  }
+  
